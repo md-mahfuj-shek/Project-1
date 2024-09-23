@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul{
+    display: flex;
+}
+
+.container{
+    display: grid; 
+    grid-template-columns: 10rem 10rem 10rem;
+}
