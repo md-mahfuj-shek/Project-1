@@ -3,7 +3,8 @@ selector{
 }
 
 :root{
-    --primary-color:#4acf50;
+    /* --primary-color:#4acf50; */
+    --primary-color: rgb(252, 184, 0 );
     --secdoundry-color:#fff;
     --text-color:#333;
     --background-color:#f4f4f4;
@@ -16,13 +17,39 @@ selector{
 body{
     background-color: var(--background-color);
     color: var(--text-color);
+ 
 
 }
 
 header{
     background-color: var(--primary-color);
-    padding: 1rem;
+    
+}
 
+.header-top{
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: none;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--primary-color);
+        
+    
+}
+
+.ps-logo img{
+    width: 300px;
+    
+}
+
+
+.header-left{
+    align-items: center;
+    display: flex;
+    max-width: 300px;
 }
         
 nav ul{
